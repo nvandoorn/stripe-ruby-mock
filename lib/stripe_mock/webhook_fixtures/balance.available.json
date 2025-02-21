@@ -1,37 +1,25 @@
 {
-  "id": "evt_000000000000000000000000",
+  "created": 1326853478,
+  "livemode": false,
+  "id": "evt_00000000000000",
+  "type": "balance.available",
   "object": "event",
-  "api_version": "2020-08-27",
-  "created": 1648319937,
   "data": {
     "object": {
-      "object": "balance",
+      "pending": [
+        {
+          "amount": 2217,
+          "currency": "usd"
+        }
+      ],
       "available": [
         {
-          "amount": 7648,
-          "currency": "usd",
-          "source_types": {
-            "card": 7648
-          }
+          "amount": 0,
+          "currency": "usd"
         }
       ],
       "livemode": false,
-      "pending": [
-        {
-          "amount": 37734,
-          "currency": "usd",
-          "source_types": {
-            "card": 37734
-          }
-        }
-      ]
+      "object": "balance"
     }
-  },
-  "livemode": false,
-  "pending_webhooks": 2,
-  "request": {
-    "id": null,
-    "idempotency_key": null
-  },
-  "type": "balance.available"
+  }
 }

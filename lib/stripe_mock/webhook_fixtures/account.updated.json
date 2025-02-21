@@ -10,7 +10,7 @@
       "email": "test@stripe.com",
       "statement_descriptor": "TEST",
       "details_submitted": true,
-      "charges_enabled": false,
+      "charge_enabled": false,
       "payouts_enabled": false,
       "currencies_supported": [
         "USD"
